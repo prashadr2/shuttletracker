@@ -35,7 +35,7 @@ Vue.component('message-panel', {
     };
   },
   methods: {
-    send: function () {
+    sed: function () {
       let el = this;
       toSend = { message: this.message, enabled: this.enabled };
       $.post("/adminMessage", JSON.stringify(toSend)).then(resp => {

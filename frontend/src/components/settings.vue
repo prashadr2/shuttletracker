@@ -9,20 +9,8 @@
     <div class="field">
     <b-switch v-model="busButtonEnabled">  Bus button <span>
       <div class="field">
-          <div class="control">
-              <div class="select is-small">
-                  <div class="select is-danger">
-                      <div class="select is-rounded">
-                          <select v-model="busButtonChoice">
-                              <option>🚌</option>
-                              <option>🚗</option>
-                              <option>🚓</option>
-                              <option>🚜</option>
-                          </select>
-                      </div>
-                  </div>
-              </div>
-          </div>
+          <input style="width:3em;" class="input" name="inp1" type="text"  placeholder="1" maxlength = "1" v-model="busButtonChoice">
+          </input>
       </div>
       </span>
       </b-switch>
