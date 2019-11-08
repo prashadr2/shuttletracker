@@ -21,6 +21,12 @@
         Settings
       </span>
     </router-link>
+    <router-link tag="li" to="/feedback">
+      <span>
+        <span class="fas fa-pencil"></span>
+        Feedback
+      </span>
+    </router-link>
     <div class="version">
       <div class="demo version-section">
         <a href="https://github.com/wtg/shuttletracker" class="github-corner">
