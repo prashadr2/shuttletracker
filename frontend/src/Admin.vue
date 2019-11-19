@@ -27,9 +27,6 @@
           <router-link to="/admin/messages" class="navbar-item">
             Messages
           </router-link>
-          <router-link to="/admin/messages" class="navbar-item">
-          Feedback
-          </router-link>
         </div>         
 
         <div class="navbar-end">
