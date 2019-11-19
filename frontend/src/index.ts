@@ -4,6 +4,7 @@ import Public from './components/Public.vue';
 import about from './components/about.vue';
 import schedules from '@/components/schedules.vue';
 import settings from '@/components/settings.vue';
+import feedback from '@/components/feedback.vue';
 import etas from '@/components/etas.vue';
 import Resources from '@/resources';
 
@@ -37,6 +38,11 @@ export default new Router({
       path: '/settings',
       name: 'settings',
       component: settings,
+    },
+    {
+      path: '/feedback',
+      name: 'feedback',
+      component: feedback,
     },
   ],
 });
